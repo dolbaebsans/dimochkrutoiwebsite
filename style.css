@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    font-family: Comfortaa;
+}
+
+body {
+    background-color: rgb(255, 157, 100);
+
+    color: white;
+    paint-order: stroke fill;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.Header {
+    text-align: center;
+
+    margin: px;
+    margin-top: 15px;
+
+    font-size: 20px;
+    -webkit-text-stroke: 7px black;
+}
+
+#porno {
+    margin-left: -34%;
+    margin-top: -7%;
+}
+
+#pider {
+    margin-left: 75%;
+}
+
+#dablyayahuiznayushtotutpisat {
+    font-size: 15px;
+    -webkit-text-stroke: 4px black;
+}
+
+.btn {
+    background-color: #77e8ad;
+
+    border: none;
+    color: #010101;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 15px;
+
+    border: 2px solid #010101;
+}
+
+.btn:hover {
+    background-color: #61e5c0;
+}
+
+#infor {
+    text-align: center;
+}
+
+.hui {
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    width: auto;
+    height: 750px;
+    max-width: 50%;
+
+    background: #3a4452;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    border: 4px solid #010101;
+    border-radius: 20px;
+}
+
+#app_template {
+    width: 150px;
+    height: 200px;
+
+    display: block;
+    padding: 10px;
+
+    border-radius: 10px;
+
+    margin: 10px;
+
+    font-size: 25px;
+
+    background: #77e8ad;
+    border: 4px solid #010101;
+
+    text-align: center;
+    -webkit-text-stroke: 4px black;
+}
