@@ -60,6 +60,8 @@ body {
 }
 
 .hui {
+    position: relative;
+
     width: 100%;
     height: 100vh;
 
@@ -69,8 +71,11 @@ body {
 }
 
 #container {
+    position: absolute;
+    left: 50%;
+
     width: auto;
-    height: 750px;
+    height: auto;
     max-width: 50%;
 
     background: #3a4452;
@@ -86,18 +91,32 @@ body {
     width: 150px;
     height: 200px;
 
-    display: block;
+    display: none;
     padding: 10px;
 
     border-radius: 10px;
 
     margin: 10px;
 
-    font-size: 25px;
+    font-size: auto;
 
     background: #77e8ad;
     border: 4px solid #010101;
 
     text-align: center;
     -webkit-text-stroke: 4px black;
+}
+
+#app_template:hover {
+    background: #6ee7c8;
+}
+
+#pass {
+    max-width: 200px;
+
+    display: grid;
+
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0%);
 }

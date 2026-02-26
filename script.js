@@ -2,8 +2,10 @@
 
 let cool_list = {
     test: ["cool_logo.png", "asdf.png", "cool_logo.png"],
-    минекрафт: ["https://drive.google.com/uc?export=download&id=1TuBXj7gHjbA6xENjWfwLdKYJaefypcAx", "минекрафт.rar", "apps/minecraft/icon.jpg"]
+    минекрафтfdvavfdvfdaafafvvafdvfafva: ["https://drive.google.com/uc?export=download&id=1TuBXj7gHjbA6xENjWfwLdKYJaefypcAx", "минекрафт.rar", "apps/minecraft/icon.jpg"]
 }
+
+const pass_enter = document.getElementById("pass")
 
 let vse = document.getElementById("hui")
 const container = document.getElementById("container")
@@ -17,6 +19,8 @@ window.onload = sayHello;
 
 function successful() {
     alert("краава");
+
+    pass_enter.remove()
 
     vse.style.display = "flex"
 
@@ -36,15 +40,20 @@ function successful() {
 
         clone.id = template.id
         container.appendChild(clone)
+        clone.style.display = "block"
         clone_app_name.textContent = Object.keys(cool_list)[i]
 
         console.log(cool_list[Object.keys(cool_list)[i]][0])
         clone_app_download.setAttribute("href", cool_list[Object.keys(cool_list)[i]][0])
         clone_app_download.setAttribute("download", cool_list[Object.keys(cool_list)[i]][1])
         clone_app_img.setAttribute("src", cool_list[Object.keys(cool_list)[i]][2])
+
+        let adfg = container.style.left || window.getComputedStyle(container).left
+
+        container.style.left = parseFloat(adfg) - (i * 150) + "px"
     }
 
-    template.style.display = "none"
+    template.remove()
 
 
     // clone.id = clone.id //+ toString(clone_amount)
@@ -54,7 +63,7 @@ function successful() {
     // clone_app_name.textContent = "adfg"
 };
 
-document.getElementById('pass').addEventListener('submit', function(event) {
+pass_enter.addEventListener('submit', function(event) {
     event.preventDefault(); // Stop default form submission and page reload
 
     const pinInput = document.getElementById('pin');
