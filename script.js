@@ -1,3 +1,5 @@
+// да бля ну нахуя тебе сюда😭😭😭😭 съеби нахуй пожалйсат💔
+
 let vse = document.getElementById("hui")
 
 function sayHello() {
