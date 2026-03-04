@@ -4,7 +4,7 @@ const container_max_width = 4
 
 let cool_list = {
     test: ["cool_logo.png", "asdf.png", "cool_logo.png"],
-    "минекрафтafdvsvfafavaf ff d f dg sfgb": ["https://drive.google.com/uc?export=download&id=1TuBXj7gHjbA6xENjWfwLdKYJaefypcAx", "минекрафт.rar", "apps/minecraft/icon.jpg"],
+    "минекрафтafdvsvfafavaf ff d f dg sfgb": ["https://drive.google.com/uc?export=download&id=1nEqXwhDetCHPmdkTEoDpPKH_8kU2EeLX", "минекрафт.rar", "apps/minecraft/icon.jpg"],
     иван: ["Сжатая архивная папка.rar", "ivan.png", "ivan.png"],
     иван1: ["Сжатая архивная папка.rar", "ivan.png", "ivan.png"],
     иван2: ["Сжатая архивная папка.rar", "ivan.png", "ivan.png"],
@@ -25,6 +25,7 @@ function on_start() {
 
 window.onload = on_start;
 
+
 function clone_app(name, image, link) {
     const template = document.getElementById("app_template");
 
@@ -42,6 +43,8 @@ function clone_app(name, image, link) {
     clone_app_img.setAttribute("src", image)
     clone_app_download.setAttribute("href", link)
     clone_app_download.setAttribute("download", "")
+
+    console.log(clone_app_name.style.width)
 }
 
 function successful() {
