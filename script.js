@@ -5,7 +5,7 @@ const container_max_width = 4
 let cool_list = {
     test: ["cool_logo.png", "asdf.png", "cool_logo.png"],
     "минекрафтafdvsvfafavaf ff d f dg sfgb": ["https://drive.google.com/uc?export=download&id=1nEqXwhDetCHPmdkTEoDpPKH_8kU2EeLX", "минекрафт.rar", "apps/minecraft/icon.jpg"],
-    "вот это еще нада": ["https://drive.google.com/uc?export=download&id=1qBHSiATMaQtdRg4MkAdPDEuZWORVzN8z", "дазай300кг.rar", "apps/minecraft/asd.jpg"],
+    "вот это еще нада": ["https://drive.google.com/file/d/1qtqV5TrSre6qQRZBbkjo5AiXh0z8N-Ik/view?usp=drive_link", "дазай300кг.rar", "apps/minecraft/asd.jpg"],
     "и вот это": ["https://drive.google.com/uc?export=download&id=1lWoyxsSqNx6Lm22dy9foAqJZhZMmxbrn", "sdfd.rar", "apps/minecraft/asd.jpg"],
     иван: ["Сжатая архивная папка.rar", "ivan.png", "ivan.png"],
     иван1: ["Сжатая архивная папка.rar", "ivan.png", "ivan.png"],
