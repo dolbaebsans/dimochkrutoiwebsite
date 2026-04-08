@@ -13,7 +13,7 @@ let cool_list = {
     иван3: ["Сжатая архивная папка.rar", "ivan.png", "ivan.png"],
     иван4: ["Сжатая архивная папка.rar", "ivan.png", "ivan.png"],
     иван5: ["Сжатая архивная папка.rar", "ivan.png", "ivan.png"],
-    иван6: ["https://drive.google.com/file/d/1aMHFIiYyKS43cLKcfw1nQnjkgvqCr0_v/view?usp=drivesdk", "ivan.png", "ivan.png"],
+    иван6: ["https://drive.google.com/file/d/1Vt2lvPcyY5uEkmVXb0cx6tTgFG0bAY9W/view?usp=drivesdk", "ivan.png", "ivan.png"],
 }
 
 const pass_enter = document.getElementById("pass")
