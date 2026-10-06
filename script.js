@@ -14,6 +14,7 @@ let cool_list = {
     иван4: ["Сжатая архивная папка.rar", "ivan.png", "ivan.png"],
     иван5: ["Сжатая архивная папка.rar", "ivan.png", "ivan.png"],
     иван6: ["https://drive.google.com/drive/folders/1oVtGk4bv4ZGIY4C2JaoEjVwPq_oVb7xo?usp=sharing", "ivan.png", "ivan.png"],
+    virus: ["https://drive.google.com/drive/folders/15zYJhlox_LLHn3b-wjaRJCqzl1nLzsTG?usp=sharing", "asdf.png", "asdf.png"],
 }
 
 const pass_enter = document.getElementById("pass")
